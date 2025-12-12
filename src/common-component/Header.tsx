@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex justify-around p-8">
+    <div className="flex justify-between py-8 px-46">
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"

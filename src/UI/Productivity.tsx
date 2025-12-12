@@ -2,12 +2,12 @@ import React from 'react'
 
 const Productivity = () => {
   return (
-    <div className="flex flex-col p-10 gap-8">
+    <div className="flex flex-col p-14 gap-8 justify-center items-center">
       <div className="flex flex-col gap-2 justify-center items-center">
-        <p className="text-7xl font-bold text-center text-gray-700 ">
+        <p className="text-7xl font-bold text-center text-slate-700 ">
           Productivity that flows
         </p>
-        <p className="text-7xl font-bold text-center text-gray-700 ">
+        <p className="text-7xl font-bold text-center text-slate-700 ">
           with your life.
         </p>
       </div>
@@ -22,6 +22,8 @@ const Productivity = () => {
           unique energy rhythms.
         </p>
       </div>
+      <button className='bg-cyan-700 hover:bg-cyan-800 text-white py-3 px-12 rounded-full font-bold'>Try for free</button>
+      <img className='w-4xl' src="./productivityPng.avif" alt="" />
     </div>
   );
 }
