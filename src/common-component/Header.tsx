@@ -38,10 +38,10 @@ const Header = () => {
 
       <ul className="flex gap-6 justify-center items-center">
         <li>
-          <Link href="">About</Link>
+          <Link href="./about">About</Link>
         </li>
         <li>
-          <Link href="">Features</Link>
+          <Link href="./feature">Features</Link>
         </li>
       </ul>
     </div>

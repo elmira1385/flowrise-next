@@ -1,4 +1,5 @@
-import React from 'react'
+import React from "react";
+import BTryItFree from "../common-component/BTryItFree";
 
 const Productivity = () => {
   return (
@@ -22,10 +23,10 @@ const Productivity = () => {
           unique energy rhythms.
         </p>
       </div>
-      <button className='bg-cyan-700 hover:bg-cyan-800 text-white py-3 px-12 rounded-full font-bold'>Try for free</button>
-      <img className='w-4xl' src="./productivityPng.avif" alt="" />
+      <BTryItFree />
+      <img className="w-4xl" src="./productivityPng.avif" alt="" />
     </div>
   );
-}
+};
 
-export default Productivity
+export default Productivity;
